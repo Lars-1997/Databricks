@@ -1,0 +1,9 @@
+bundle:
+  name: Route_Analysis
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true

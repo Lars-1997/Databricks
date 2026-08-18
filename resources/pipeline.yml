@@ -1,0 +1,51 @@
+resources:
+  pipelines:
+    route_analysis_pipeline:
+      name: route_analysis_pipeline
+
+      catalog: analytics
+      schema: route_analysis
+      continuous: false
+      libraries:
+########################################################################
+###                           Bronze                                 ###
+########################################################################        
+        - notebook:
+            path: ../src/bronze/dwh_datum.ipynb
+        - notebook:
+            path: ../src/bronze/dwh_nyc_taxi.ipynb
+        - notebook:
+            path: ../src/bronze/dwh_nyc_taxi_payment.ipynb
+        - notebook:
+            path: ../src/bronze/dwh_nyc_taxi_rate.ipynb
+        - notebook:
+            path: ../src/bronze/dwh_nyc_taxi_zone.ipynb    
+########################################################################
+###                           Silver                                 ###
+########################################################################
+        - notebook:
+            path: ../src/silver/calendar_stm_datum.ipynb
+        - notebook:
+            path: ../src/silver/geographics_stm_zone.ipynb
+        - notebook:
+            path: ../src/silver/payment_stm_payment.ipynb
+        - notebook:
+            path: ../src/silver/payment_stm_rate.ipynb
+        - notebook:
+            path: ../src/silver/trips_trn_trips.ipynb
+########################################################################
+###                            Gold                                  ###
+########################################################################
+        - notebook:
+            path: ../src/gold/datum.ipynb
+        - notebook:
+            path: ../src/gold/trips.ipynb
+        - notebook:
+            path: ../src/gold/zones.ipynb
+
+      serverless: true
+      event_log:
+        catalog: analytics
+        schema: route_analysis_info
+        name: pipeline_dlt_event_log
+
