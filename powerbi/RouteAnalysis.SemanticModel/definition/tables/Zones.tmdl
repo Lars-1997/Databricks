@@ -1,0 +1,80 @@
+table Zones
+	lineageTag: 3383c671-1c48-42b2-844d-61d596902de7
+
+	column location_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 09082f30-d9ac-487d-8c8d-2a392d31fce0
+		summarizeBy: none
+		sourceColumn: location_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column borough
+		dataType: string
+		lineageTag: 297bb04a-0162-47f2-aab7-a0381b51d2d5
+		summarizeBy: none
+		sourceColumn: borough
+
+		annotation SummarizationSetBy = Automatic
+
+	column zone
+		dataType: string
+		lineageTag: ee251bd3-8f7c-41bd-9e94-a46acf25f1cf
+		summarizeBy: none
+		sourceColumn: zone
+
+		annotation SummarizationSetBy = Automatic
+
+	column service_zone
+		dataType: string
+		lineageTag: b45372cd-4eab-407c-8932-0b7d1a4246cf
+		summarizeBy: none
+		sourceColumn: service_zone
+
+		annotation SummarizationSetBy = Automatic
+
+	column the_geom
+		dataType: string
+		lineageTag: ea3a750c-5be6-45f7-bc73-e4e82b816c74
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: the_geom
+
+		annotation SummarizationSetBy = Automatic
+
+	column shape_leng
+		dataType: double
+		lineageTag: 95b562a8-f22c-4ce7-90ea-fc765ce6565a
+		summarizeBy: sum
+		sourceColumn: shape_leng
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column shape_area
+		dataType: double
+		lineageTag: c3417207-4c7b-4a9f-a44f-b9b723d3ec15
+		summarizeBy: sum
+		sourceColumn: shape_area
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Zones = m
+		mode: import
+		source =
+				let
+				    Source = DatabricksMultiCloud.Catalogs("dbc-c330c5c5-5531.cloud.databricks.com", "/sql/1.0/warehouses/623eacf84c6d44c1", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    analytics_Database = Source{[Name="analytics",Kind="Database"]}[Data],
+				    gold_Schema = analytics_Database{[Name="gold",Kind="Schema"]}[Data],
+				    zones_View = gold_Schema{[Name="zones",Kind="View"]}[Data]
+				in
+				    zones_View
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

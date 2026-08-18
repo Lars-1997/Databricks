@@ -1,0 +1,220 @@
+table Datum
+	lineageTag: 1e2ec0c6-2827-49be-b15c-18de509ff759
+
+	column id_datum
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b23b679-370c-4366-b411-878831d5cfaa
+		summarizeBy: sum
+		sourceColumn: id_datum
+
+		annotation SummarizationSetBy = Automatic
+
+	column datum_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: b65df10d-5e4f-4eda-88af-c83fa2ba837e
+		summarizeBy: none
+		sourceColumn: datum_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column wochentag_num
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f8e8fa9-7873-4bbd-9c95-9edc63153c03
+		summarizeBy: sum
+		sourceColumn: wochentag_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column wochentag_bez
+		dataType: string
+		lineageTag: 710879c7-8877-492f-830c-79c673e336ee
+		summarizeBy: none
+		sourceColumn: wochentag_bez
+
+		annotation SummarizationSetBy = Automatic
+
+	column wochentag_kbez
+		dataType: string
+		lineageTag: e67c2d1c-da99-4f8f-94e0-d1252a0d66a9
+		summarizeBy: none
+		sourceColumn: wochentag_kbez
+
+		annotation SummarizationSetBy = Automatic
+
+	column tag_im_monat_num
+		dataType: int64
+		formatString: 0
+		lineageTag: b37a1a60-fdbe-4944-969b-b1d3f33705d4
+		summarizeBy: sum
+		sourceColumn: tag_im_monat_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column tag_im_jahr_num
+		dataType: int64
+		formatString: 0
+		lineageTag: 36bfa2e1-ed4b-4050-a5a0-34a52851de74
+		summarizeBy: sum
+		sourceColumn: tag_im_jahr_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column tage_seit_1900
+		dataType: int64
+		formatString: 0
+		lineageTag: adae0f10-0920-48a2-8632-0ac3c014ad7c
+		summarizeBy: sum
+		sourceColumn: tage_seit_1900
+
+		annotation SummarizationSetBy = Automatic
+
+	column jahr_kw_num
+		dataType: int64
+		formatString: 0
+		lineageTag: 637f3070-5ba1-4f66-b612-a9f3d8d658e8
+		summarizeBy: sum
+		sourceColumn: jahr_kw_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column kw_num
+		dataType: int64
+		formatString: 0
+		lineageTag: 4156042e-841b-45db-a35c-1899a5a9c517
+		summarizeBy: sum
+		sourceColumn: kw_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column kw_bez
+		dataType: string
+		lineageTag: a956b528-5bb7-4cbd-b973-69ff06f3acc9
+		summarizeBy: none
+		sourceColumn: kw_bez
+
+		annotation SummarizationSetBy = Automatic
+
+	column jahr_monat_num
+		dataType: int64
+		formatString: 0
+		lineageTag: aeda88f8-6bec-4977-91b0-4632fb935a5d
+		summarizeBy: sum
+		sourceColumn: jahr_monat_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column monat_bez
+		dataType: string
+		lineageTag: a634bdc2-a5b1-4ba8-94b2-80f74901974c
+		summarizeBy: none
+		sourceColumn: monat_bez
+
+		annotation SummarizationSetBy = Automatic
+
+	column monat_kbez
+		dataType: string
+		lineageTag: b67fea9a-c9dc-442f-aeed-b0119e5d0519
+		summarizeBy: none
+		sourceColumn: monat_kbez
+
+		annotation SummarizationSetBy = Automatic
+
+	column monatjahr_kbez
+		dataType: string
+		lineageTag: 4182d3c0-2a1a-47bf-bf6b-f81c2dd34712
+		summarizeBy: none
+		sourceColumn: monatjahr_kbez
+
+		annotation SummarizationSetBy = Automatic
+
+	column monat_num
+		dataType: int64
+		formatString: 0
+		lineageTag: c56d2f8c-d551-43e2-844a-fb31fdc4b95a
+		summarizeBy: sum
+		sourceColumn: monat_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column jahr_quartal_num
+		dataType: int64
+		formatString: 0
+		lineageTag: 5ed471ea-f057-426a-a832-a0b03909c87c
+		summarizeBy: sum
+		sourceColumn: jahr_quartal_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column quartal_bez
+		dataType: string
+		lineageTag: 6edb1938-965c-4766-82b2-54a510f1e564
+		summarizeBy: none
+		sourceColumn: quartal_bez
+
+		annotation SummarizationSetBy = Automatic
+
+	column quartal_num
+		dataType: int64
+		formatString: 0
+		lineageTag: 6463d70d-896c-44b7-bf9f-66e0604e46d1
+		summarizeBy: sum
+		sourceColumn: quartal_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column jahr
+		dataType: int64
+		formatString: 0
+		lineageTag: 52566ae2-4704-432e-9acc-d3cbd4d0ecbd
+		summarizeBy: sum
+		sourceColumn: jahr
+
+		annotation SummarizationSetBy = Automatic
+
+	column islastofmonth
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 87ec78a8-f682-464c-a49a-defa25ed64c5
+		summarizeBy: none
+		sourceColumn: islastofmonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column time_to_end_of_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 16a9f27c-09b1-41e0-ab88-8d3be26851c6
+		summarizeBy: sum
+		sourceColumn: time_to_end_of_month
+
+		annotation SummarizationSetBy = Automatic
+
+	column time_to_end_of_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 42ee4b24-2e69-4565-935a-7e176cb15ab3
+		summarizeBy: sum
+		sourceColumn: time_to_end_of_year
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Datum = m
+		mode: import
+		source =
+				let
+				    Source = DatabricksMultiCloud.Catalogs("dbc-c330c5c5-5531.cloud.databricks.com", "/sql/1.0/warehouses/623eacf84c6d44c1", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    analytics_Database = Source{[Name="analytics",Kind="Database"]}[Data],
+				    gold_Schema = analytics_Database{[Name="gold",Kind="Schema"]}[Data],
+				    datum_View = gold_Schema{[Name="datum",Kind="View"]}[Data]
+				in
+				    datum_View
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

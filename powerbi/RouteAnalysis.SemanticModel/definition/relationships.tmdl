@@ -1,0 +1,10 @@
+relationship 9b59862f-202e-f62d-6b45-df92badc5245
+	fromColumn: Trips.pickup_datetime
+	toColumn: Datum.datum_date
+
+relationship e3c08832-c60b-434d-64d6-519f54c0d168
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: Zones.location_id
+	toColumn: Trips.pickup_location_id
+
