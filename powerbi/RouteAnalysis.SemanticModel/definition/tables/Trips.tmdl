@@ -169,13 +169,14 @@ table Trips
 
 	column total_amount
 		dataType: double
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
 		lineageTag: 2dc1a823-2ca1-40d5-94fc-ed50f0464a9c
 		summarizeBy: sum
 		sourceColumn: total_amount
 
 		annotation SummarizationSetBy = Automatic
 
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
 
 	column congestion_surcharge
 		dataType: double
@@ -202,6 +203,27 @@ table Trips
 		lineageTag: 1c33abf3-32b9-45fb-b169-e7fb0bdc4bd3
 		summarizeBy: sum
 		sourceColumn: cbd_congestion_fee
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column day_of_trip
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8eadc801-b628-45df-b9e8-f60ba164dbcf
+		summarizeBy: none
+		sourceColumn: day_of_trip
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column duration
+		dataType: double
+		lineageTag: 0cc7d15f-7713-455d-ad92-90f33dd732cc
+		summarizeBy: sum
+		sourceColumn: duration
 
 		annotation SummarizationSetBy = Automatic
 

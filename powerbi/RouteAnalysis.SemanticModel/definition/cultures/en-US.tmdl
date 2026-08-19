@@ -1,2 +1,6149 @@
 cultureInfo en-US
 
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "datum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datum": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "datum.id_datum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "id_datum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id datum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_datum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification datum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity datum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier datum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential datum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "datum.datum_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "datum_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datum date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "datum_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "datum moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "datum period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "datum.wochentag_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "wochentag_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wochentag num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wochentag_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "wochentag number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "datum.wochentag_bez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "wochentag_bez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wochentag bez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wochentag_bez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Day of the Week": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "datum.wochentag_kbez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "wochentag_kbez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wochentag kbez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wochentag_kbez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.tag_im_monat_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "tag_im_monat_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag im monat num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tag_im_monat_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tag im monat number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "datum.tag_im_jahr_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "tag_im_jahr_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag im jahr num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tag_im_jahr_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tag im jahr number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "datum.tage_seit_1900": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "tage_seit_1900"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tage seit 1900": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tage_seit_1900": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.jahr_kw_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "jahr_kw_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jahr kw num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jahr_kw_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "jahr kw number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "datum.kw_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "kw_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kw num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "kw_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "kw number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "datum.kw_bez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "kw_bez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kw bez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "kw_bez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.jahr_monat_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "jahr_monat_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jahr monat num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jahr_monat_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "jahr monat number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "datum.monat_bez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "monat_bez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monat bez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "monat_bez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.monat_kbez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "monat_kbez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monat kbez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "monat_kbez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.monatjahr_kbez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "monatjahr_kbez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monatjahr kbez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "monatjahr_kbez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.monat_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "monat_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monat num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "monat_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "monat number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "datum.jahr_quartal_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "jahr_quartal_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jahr quartal num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jahr_quartal_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "jahr quartal number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "datum.quartal_bez": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "quartal_bez"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quartal bez": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quartal_bez": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.quartal_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "quartal_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quartal num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quartal_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quartal number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "datum.jahr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "jahr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jahr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "datum.islastofmonth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "islastofmonth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "islastofmonth": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "datum.time_to_end_of_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "time_to_end_of_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time to end of month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time_to_end_of_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "duration to end of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "interval to end of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "moment to end of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "period to end of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "timetable to end of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "time to completion of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to conclusion of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to expiration of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to end of mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to close of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "datum.time_to_end_of_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "time_to_end_of_year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time to end of year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time_to_end_of_year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "duration to end of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "interval to end of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "moment to end of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "period to end of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "timetable to end of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "time to completion of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to conclusion of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to expiration of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to end of yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "time to close of year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "trip": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trip": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "excursion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expedition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "spree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "journey": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "voyage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jaunt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "visit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "trip.vendor_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "vendor_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendor id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vendor_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vendor": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vendor identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendor identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendor identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vendor credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salesperson": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "retailer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "wholesaler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dealer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hawker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "trip.pickup_datetime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "pickup_datetime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pickup datetime": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pickup_datetime": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "trip.dropoff_datetime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "dropoff_datetime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dropoff datetime": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dropoff_datetime": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "trip.passenger": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "passengers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "passenger": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "inside": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "curbside": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "traveler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "commuter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "fare": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "trip.distance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "distance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aloofness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remoteness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reserve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "vastness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "void": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "gap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "Distance in miles": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "trip.rate_code_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "rate_code_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rate code id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate_code_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate code": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "code id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rate code identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rate code identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rate code identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rate id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "code identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "code identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "code identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "rate code credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "rate key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "code credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "trip.rate_code_description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "rate_code_description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rate code description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate_code_description": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "description": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "code description": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rate code appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rate code descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rate code explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rate code specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "code appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "code descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "code explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "code specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "rate code account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "rate code overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "trip.store_and_fwd_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "store_and_fwd_flag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "store and fwd flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "store_and_fwd_flag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "store": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "store fwd flag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fwd flag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "store and fwd ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "store and fwd pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "store and fwd pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "store and fwd emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "store and fwd streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "store fwd ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "store fwd pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "store fwd pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "store fwd emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "store fwd streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        }
+			      ]
+			    },
+			    "trip.pickup_location_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "pickup_location_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "pickup location id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pickup_location_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "location": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pickup location": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pickup location identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "pickup location identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "pickup location identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "pickup locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pickup placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pickup scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pickup venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pickup location credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "trip.dropoff_location_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "dropoff_location_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dropoff location id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dropoff_location_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dropoff location identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dropoff location identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dropoff location identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "dropoff location credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "dropoff locality id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dropoff placement id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dropoff scene id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dropoff venue id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dropoff address id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "dropoff place id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "trip.payment_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "payment_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "payment brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "trip.payment_description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "payment_description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_description": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "description": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "payment account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "trip.fare_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "fare_amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fare amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fare_amount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fare quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fare volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fare expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fare extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fare sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fare total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fare aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "trip.extra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "extra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "extra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "spare": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "trip.mta_tax": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "mta_tax"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mta tax": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mta_tax": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tax": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mta duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mta levy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mta toll": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mta due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mta excise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mta tariff": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "levy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "toll": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "trip.tip_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "tip_amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tip amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tip_amount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tip quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tip volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tip expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tip extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "tip sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tip total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tip aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "trip.tolls_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "tolls_amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tolls amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "toll amount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tolls_amount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tolls": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "toll": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "toll quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "toll volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "toll expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "toll extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "toll sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "toll total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "toll aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "peal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dingdong": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "trip.improvement_surcharge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "improvement_surcharge"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "improvement surcharge": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "improvement_surcharge": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "surcharge": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "improvement addition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "addition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "improvement supplement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "improvement extra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "improvement price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "improvement padding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "supplement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "padding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "improvement appendage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "trip.total_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "total_amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_amount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "trip.congestion_surcharge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "congestion_surcharge"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "congestion surcharge": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "congestion_surcharge": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "surcharge": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "congestion addition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "addition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "congestion supplement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "congestion extra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "congestion price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "congestion padding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "supplement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "padding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "congestion appendage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "trip.airport_fee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "airport_fee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "airport fee": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "airport_fee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fee": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "airport payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "airport remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "airport emolument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "airport salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "airport stipend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emolument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stipend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "trip.cbd_congestion_fee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "cbd_congestion_fee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cbd congestion fee": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cbd_congestion_fee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cbd congestion payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cbd congestion remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cbd congestion emolument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cbd congestion salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cbd congestion stipend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cbd congestion pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cbd congestion subscription": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "cbd congestion charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "cbd congestion toll": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "cbd congestion tariff": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "trip.day_of_trip": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "day_of_trip"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of trip": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day_of_trip": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "precinct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "zone.location_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "location_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "location id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "location": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "zone.borough": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "borough"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "borough": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "township": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Pickup Borough": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "zone.zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "zone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "zone name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "precinct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "zone.service_zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "service_zone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "service zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "service_zone": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "maintenance zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "examination zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "svc zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "package zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "repair zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "benefit zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "servicing zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "service region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "service precinct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "service district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "zone.the_geom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "the_geom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "the geom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "the_geom": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "zone.shape_leng": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "shape_leng"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "shape leng": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shape_leng": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "zone.shape_area": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Zones",
+			          "ConceptualProperty": "shape_area"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "shape area": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shape_area": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "area": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "shape region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "shape locale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "shape locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "shape neighbourhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "locale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "neighbourhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shape district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "shape continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "trip.duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "duration"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Duration in minutes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "zone_has_shape_area": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.shape_area": {
+			          "Target": {
+			            "Entity": "zone.shape_area"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.shape_area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_shape_areas"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Adjectives": [
+			              {
+			                "large": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "big": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "small": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "zone.shape_area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "shape_area_indicates_how_large_zones_are"
+			        }
+			      ]
+			    },
+			    "zone_has_shape_leng": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.shape_leng": {
+			          "Target": {
+			            "Entity": "zone.shape_leng"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.shape_leng"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_shape_lengs"
+			        }
+			      ]
+			    },
+			    "zone_has_the_geom": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.the_geom": {
+			          "Target": {
+			            "Entity": "zone.the_geom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.the_geom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_the_geom"
+			        }
+			      ]
+			    },
+			    "zone_has_service_zone": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.service_zone": {
+			          "Target": {
+			            "Entity": "zone.service_zone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.service_zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_service_zones"
+			        }
+			      ]
+			    },
+			    "zone_has_zone": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.zone": {
+			          "Target": {
+			            "Entity": "zone.zone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_zones"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Name": {
+			              "Role": "zone.zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_are_names_IDs_of_zones"
+			        }
+			      ]
+			    },
+			    "zone_has_borough": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.borough": {
+			          "Target": {
+			            "Entity": "zone.borough"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.borough"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_boroughs"
+			        }
+			      ]
+			    },
+			    "zone_has_location_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Zones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          }
+			        },
+			        "zone.location_id": {
+			          "Target": {
+			            "Entity": "zone.location_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "zone.location_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_location_ids"
+			        }
+			      ]
+			    },
+			    "trip_has_day_of_trip": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.day_of_trip": {
+			          "Target": {
+			            "Entity": "trip.day_of_trip"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.day_of_trip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_day_of_trip"
+			        }
+			      ]
+			    },
+			    "trip_has_cbd_congestion_fee": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.cbd_congestion_fee": {
+			          "Target": {
+			            "Entity": "trip.cbd_congestion_fee"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.cbd_congestion_fee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_cbd_congestion_fees"
+			        }
+			      ]
+			    },
+			    "trip_has_airport_fee": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.airport_fee": {
+			          "Target": {
+			            "Entity": "trip.airport_fee"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.airport_fee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_airport_fees"
+			        }
+			      ]
+			    },
+			    "trip_has_congestion_surcharge": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.congestion_surcharge": {
+			          "Target": {
+			            "Entity": "trip.congestion_surcharge"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.congestion_surcharge"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_congestion_surcharges"
+			        }
+			      ]
+			    },
+			    "trip_has_total_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.total_amount": {
+			          "Target": {
+			            "Entity": "trip.total_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.total_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_total_amounts"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "trip.total_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_amount_indicates_how_expensive_trips_are"
+			        }
+			      ]
+			    },
+			    "trip_has_improvement_surcharge": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.improvement_surcharge": {
+			          "Target": {
+			            "Entity": "trip.improvement_surcharge"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.improvement_surcharge"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_improvement_surcharges"
+			        }
+			      ]
+			    },
+			    "trip_has_tolls_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.tolls_amount": {
+			          "Target": {
+			            "Entity": "trip.tolls_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.tolls_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_tolls_amounts"
+			        }
+			      ]
+			    },
+			    "trip_has_tip_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.tip_amount": {
+			          "Target": {
+			            "Entity": "trip.tip_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.tip_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_tip_amounts"
+			        }
+			      ]
+			    },
+			    "trip_has_mta_tax": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.mta_tax": {
+			          "Target": {
+			            "Entity": "trip.mta_tax"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.mta_tax"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_mta_taxes"
+			        }
+			      ]
+			    },
+			    "trip_has_extra": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.extra": {
+			          "Target": {
+			            "Entity": "trip.extra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.extra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_extras"
+			        }
+			      ]
+			    },
+			    "trip_has_fare_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.fare_amount": {
+			          "Target": {
+			            "Entity": "trip.fare_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.fare_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_fare_amounts"
+			        }
+			      ]
+			    },
+			    "trip_has_payment_description": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.payment_description": {
+			          "Target": {
+			            "Entity": "trip.payment_description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.payment_description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_payment_descriptions"
+			        }
+			      ]
+			    },
+			    "trip_has_payment_type": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.payment_type": {
+			          "Target": {
+			            "Entity": "trip.payment_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.payment_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_payment_types"
+			        }
+			      ]
+			    },
+			    "trip_has_dropoff_location_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.dropoff_location_id": {
+			          "Target": {
+			            "Entity": "trip.dropoff_location_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.dropoff_location_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_dropoff_location_ids"
+			        }
+			      ]
+			    },
+			    "trip_has_store_and_fwd_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.store_and_fwd_flag": {
+			          "Target": {
+			            "Entity": "trip.store_and_fwd_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.store_and_fwd_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_store_and_fwd_flags"
+			        }
+			      ]
+			    },
+			    "trip_has_rate_code_description": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.rate_code_description": {
+			          "Target": {
+			            "Entity": "trip.rate_code_description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.rate_code_description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_rate_code_descriptions"
+			        }
+			      ]
+			    },
+			    "trip_has_rate_code_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.rate_code_id": {
+			          "Target": {
+			            "Entity": "trip.rate_code_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.rate_code_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_rate_code_ids"
+			        }
+			      ]
+			    },
+			    "trip_has_distance": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.distance": {
+			          "Target": {
+			            "Entity": "trip.distance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.distance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_distances"
+			        }
+			      ]
+			    },
+			    "trip_has_passenger": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.passenger": {
+			          "Target": {
+			            "Entity": "trip.passenger"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.passenger"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_passengers"
+			        }
+			      ]
+			    },
+			    "trip_has_dropoff_datetime": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.dropoff_datetime": {
+			          "Target": {
+			            "Entity": "trip.dropoff_datetime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.dropoff_datetime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_dropoff_datetimes"
+			        }
+			      ]
+			    },
+			    "trip_has_pickup_datetime": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.pickup_datetime": {
+			          "Target": {
+			            "Entity": "trip.pickup_datetime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.pickup_datetime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_pickup_datetimes"
+			        }
+			      ]
+			    },
+			    "trip_has_vendor_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.vendor_id": {
+			          "Target": {
+			            "Entity": "trip.vendor_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.vendor_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_vendor_ids"
+			        }
+			      ]
+			    },
+			    "datum_has_time_to_end_of_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.time_to_end_of_year": {
+			          "Target": {
+			            "Entity": "datum.time_to_end_of_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.time_to_end_of_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_time_to_end_of_year"
+			        }
+			      ]
+			    },
+			    "datum_has_time_to_end_of_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.time_to_end_of_month": {
+			          "Target": {
+			            "Entity": "datum.time_to_end_of_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.time_to_end_of_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_time_to_end_of_month"
+			        }
+			      ]
+			    },
+			    "datum_has_islastofmonth": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.islastofmonth": {
+			          "Target": {
+			            "Entity": "datum.islastofmonth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.islastofmonth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_islastofmonths"
+			        }
+			      ]
+			    },
+			    "datum_has_jahr": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.jahr": {
+			          "Target": {
+			            "Entity": "datum.jahr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_jahrs"
+			        }
+			      ]
+			    },
+			    "datum_has_quartal_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.quartal_num": {
+			          "Target": {
+			            "Entity": "datum.quartal_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.quartal_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_quartal_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_quartal_bez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.quartal_bez": {
+			          "Target": {
+			            "Entity": "datum.quartal_bez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.quartal_bez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_quartal_bezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_jahr_quartal_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.jahr_quartal_num": {
+			          "Target": {
+			            "Entity": "datum.jahr_quartal_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.jahr_quartal_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_jahr_quartal_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_monat_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.monat_num": {
+			          "Target": {
+			            "Entity": "datum.monat_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.monat_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_monat_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_monatjahr_kbez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.monatjahr_kbez": {
+			          "Target": {
+			            "Entity": "datum.monatjahr_kbez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.monatjahr_kbez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_monatjahr_kbezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_monat_kbez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.monat_kbez": {
+			          "Target": {
+			            "Entity": "datum.monat_kbez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.monat_kbez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_monat_kbezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_monat_bez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.monat_bez": {
+			          "Target": {
+			            "Entity": "datum.monat_bez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.monat_bez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_monat_bezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_jahr_monat_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.jahr_monat_num": {
+			          "Target": {
+			            "Entity": "datum.jahr_monat_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.jahr_monat_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_jahr_monat_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_kw_bez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.kw_bez": {
+			          "Target": {
+			            "Entity": "datum.kw_bez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.kw_bez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_kw_bezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_kw_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.kw_num": {
+			          "Target": {
+			            "Entity": "datum.kw_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.kw_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_kw_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_jahr_kw_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.jahr_kw_num": {
+			          "Target": {
+			            "Entity": "datum.jahr_kw_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.jahr_kw_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_jahr_kw_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_tage_seit_1900": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.tage_seit_1900": {
+			          "Target": {
+			            "Entity": "datum.tage_seit_1900"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.tage_seit_1900"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_tage_seit_1900"
+			        }
+			      ]
+			    },
+			    "datum_has_tag_im_jahr_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.tag_im_jahr_num": {
+			          "Target": {
+			            "Entity": "datum.tag_im_jahr_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.tag_im_jahr_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_tag_im_jahr_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_tag_im_monat_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.tag_im_monat_num": {
+			          "Target": {
+			            "Entity": "datum.tag_im_monat_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.tag_im_monat_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_tag_im_monat_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_wochentag_kbez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.wochentag_kbez": {
+			          "Target": {
+			            "Entity": "datum.wochentag_kbez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.wochentag_kbez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_wochentag_kbezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_wochentag_bez": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.wochentag_bez": {
+			          "Target": {
+			            "Entity": "datum.wochentag_bez"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.wochentag_bez"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_wochentag_bezzes"
+			        }
+			      ]
+			    },
+			    "datum_has_wochentag_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.wochentag_num": {
+			          "Target": {
+			            "Entity": "datum.wochentag_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.wochentag_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_wochentag_nums"
+			        }
+			      ]
+			    },
+			    "datum_has_datum_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.datum_date": {
+			          "Target": {
+			            "Entity": "datum.datum_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.datum_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_datum_dates"
+			        }
+			      ]
+			    },
+			    "datum_has_id_datum": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.id_datum": {
+			          "Target": {
+			            "Entity": "datum.id_datum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.id_datum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_id_data"
+			        }
+			      ]
+			    },
+			    "trip_has_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.duration": {
+			          "Target": {
+			            "Entity": "trip.duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_durations"
+			        }
+			      ]
+			    },
+			    "trip_has_zone": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "zone": {
+			          "Target": {
+			            "Entity": "zone"
+			          },
+			          "Nouns": [
+			            {
+			              "location": {
+			                "State": "Generated"
+			              }
+			            },
+			            {
+			              "pickup location": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_zones"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zone"
+			            },
+			            "Object": {
+			              "Role": "trip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_have_trips"
+			        }
+			      ]
+			    },
+			    "trip_has_datum": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "datum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "trip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_trips"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
