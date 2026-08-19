@@ -46,7 +46,7 @@ table Zones
 	column shape_leng
 		dataType: double
 		lineageTag: 95b562a8-f22c-4ce7-90ea-fc765ce6565a
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: shape_leng
 
 		annotation SummarizationSetBy = Automatic
@@ -56,7 +56,7 @@ table Zones
 	column shape_area
 		dataType: double
 		lineageTag: c3417207-4c7b-4a9f-a44f-b9b723d3ec15
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: shape_area
 
 		annotation SummarizationSetBy = Automatic
