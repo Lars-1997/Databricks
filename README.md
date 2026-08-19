@@ -25,9 +25,13 @@ The project aims to answer questions such as:
 - Which NYC areas generate the highest taxi demand?
 - Which routes generate the most revenue?
 - How does weather affect taxi demand?
+- What are the busiest hours and days of the week?
+
+---
+
+# Possible Extensions
 - Do public holidays influence trip volume?
 - Do major events create transportation spikes?
-- What are the busiest hours and days of the week?
 
 ---
 # Repository Structure
@@ -215,15 +219,5 @@ Bubble Color:
 
 ---
 
-## Page 4 - Event Impact
-
-### Event Analysis
-
-Visualize:
-
-- Event Venues
-- Nearby Taxi Demand
-
----
 
 
