@@ -183,11 +183,11 @@ Display:
 - Pickup Locations
 - Dropoff Locations
 
-Bubble Size:
+Pie Chart Size:
 
 - Trip Volume
 
-Bubble Color:
+Pie Chart Color:
 
 - Revenue
 
@@ -197,9 +197,8 @@ Bubble Color:
 |----------|
 | Pickup Zone |
 | Dropoff Zone |
-| Trip Count |
+| Amount Passangers |
 | Revenue |
-| Average Fare |
 
 ---
 
