@@ -11,19 +11,19 @@
         {
           "location": {
             "x": 568,
-            "y": 50
+            "y": 75
           },
           "nodeIndex": "Datum",
           "size": {
             "height": 200,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 1
         },
         {
           "location": {
             "x": 756,
-            "y": 390
+            "y": 415
           },
           "nodeIndex": "Trips",
           "nodeLineageTag": "3e76d008-08a1-41d8-beea-994f25297184",
@@ -31,17 +31,29 @@
             "height": 300,
             "width": 234
           },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1194,
+            "y": 176
+          },
+          "nodeIndex": "Zones Pickup",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 1256,
-            "y": 284
+            "x": 1219,
+            "y": 619
           },
-          "nodeIndex": "Zones",
-          "nodeLineageTag": "3383c671-1c48-42b2-844d-61d596902de7",
+          "nodeIndex": "Zones Dropoff",
+          "nodeLineageTag": "3e6c2dfb-1d7e-4df2-8891-70acb04ed511",
           "size": {
-            "height": 248,
+            "height": 296,
             "width": 234
           },
           "zIndex": 0

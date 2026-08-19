@@ -1,10 +1,10 @@
-table Zones
-	lineageTag: 3383c671-1c48-42b2-844d-61d596902de7
+table 'Zones Dropoff'
+	lineageTag: 3e6c2dfb-1d7e-4df2-8891-70acb04ed511
 
 	column location_id
 		dataType: int64
 		formatString: 0
-		lineageTag: 09082f30-d9ac-487d-8c8d-2a392d31fce0
+		lineageTag: 009ad99e-6438-4739-9c2f-965a45398388
 		summarizeBy: none
 		sourceColumn: location_id
 
@@ -12,7 +12,7 @@ table Zones
 
 	column borough
 		dataType: string
-		lineageTag: 297bb04a-0162-47f2-aab7-a0381b51d2d5
+		lineageTag: 2e49c754-bf7c-4c31-85a9-74700afd8ef0
 		summarizeBy: none
 		sourceColumn: borough
 
@@ -20,7 +20,7 @@ table Zones
 
 	column zone
 		dataType: string
-		lineageTag: ee251bd3-8f7c-41bd-9e94-a46acf25f1cf
+		lineageTag: 9bc509e2-2dc6-4796-be1a-90dcde7fb603
 		summarizeBy: none
 		sourceColumn: zone
 
@@ -28,7 +28,7 @@ table Zones
 
 	column service_zone
 		dataType: string
-		lineageTag: b45372cd-4eab-407c-8932-0b7d1a4246cf
+		lineageTag: 77c45ae4-caec-47fd-9da1-fbfa4247342b
 		summarizeBy: none
 		sourceColumn: service_zone
 
@@ -36,8 +36,7 @@ table Zones
 
 	column the_geom
 		dataType: string
-		lineageTag: ea3a750c-5be6-45f7-bc73-e4e82b816c74
-		dataCategory: Uncategorized
+		lineageTag: c38a50c1-d506-4683-b5f9-56c8bd6130cf
 		summarizeBy: none
 		sourceColumn: the_geom
 
@@ -45,8 +44,8 @@ table Zones
 
 	column shape_leng
 		dataType: double
-		lineageTag: 95b562a8-f22c-4ce7-90ea-fc765ce6565a
-		summarizeBy: sum
+		lineageTag: ada8d92e-6c11-428a-9b83-eef97754f8e6
+		summarizeBy: none
 		sourceColumn: shape_leng
 
 		annotation SummarizationSetBy = Automatic
@@ -55,24 +54,45 @@ table Zones
 
 	column shape_area
 		dataType: double
-		lineageTag: c3417207-4c7b-4a9f-a44f-b9b723d3ec15
-		summarizeBy: sum
+		lineageTag: 53b565bd-192e-47d1-bddc-b88121a5d8a9
+		summarizeBy: none
 		sourceColumn: shape_area
 
 		annotation SummarizationSetBy = Automatic
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	partition Zones = m
+	column latitude
+		dataType: double
+		lineageTag: 9e291c55-a703-487b-9e91-227a80f6cdef
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: 33cf0a83-50fb-4a46-9804-48ede625cefd
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Zones Dropoff' = m
 		mode: import
 		source =
 				let
 				    Source = DatabricksMultiCloud.Catalogs("dbc-c330c5c5-5531.cloud.databricks.com", "/sql/1.0/warehouses/623eacf84c6d44c1", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
 				    analytics_Database = Source{[Name="analytics",Kind="Database"]}[Data],
 				    gold_Schema = analytics_Database{[Name="gold",Kind="Schema"]}[Data],
-				    zones_View = gold_Schema{[Name="zones",Kind="View"]}[Data]
+				    zones_View = gold_Schema{[Name="zones",Kind="View"]}[Data],
+				    #"Filtered Rows" = Table.SelectRows(zones_View, each ([the_geom] <> null))
 				in
-				    zones_View
+				    #"Filtered Rows"
 
 	annotation PBI_NavigationStepName = Navigation
 

@@ -9,6 +9,15 @@
         "page": "2.3.1"
       },
       "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Custom0965281117866259.json",
+      "reportVersionAtImport": {
+        "visual": "2.11.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
     }
   },
   "objects": {
@@ -35,6 +44,27 @@
           "name": "Fluent2-CY26SU07",
           "path": "BaseThemes/Fluent2-CY26SU07.json",
           "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Custom0965281117866259.json",
+          "path": "Custom0965281117866259.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "NYC_Taxi9600279747333734.jpg",
+          "path": "NYC_Taxi9600279747333734.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "zones08822378788895957.geojson",
+          "path": "zones08822378788895957.geojson",
+          "type": "ShapeMap"
         }
       ]
     }

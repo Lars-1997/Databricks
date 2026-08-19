@@ -1,0 +1,260 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "d33eb218aa03731b82f1",
+  "position": {
+    "x": 20,
+    "y": 270,
+    "z": 8003,
+    "height": 790,
+    "width": 685,
+    "tabOrder": 8003
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Zones Pickup"
+                    }
+                  },
+                  "Property": "borough"
+                }
+              },
+              "queryRef": "Zones.borough",
+              "nativeQueryRef": "Start Borough",
+              "displayName": "Start Borough"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Zones Pickup"
+                    }
+                  },
+                  "Property": "zone"
+                }
+              },
+              "queryRef": "Zones.zone",
+              "nativeQueryRef": "Start Zone",
+              "displayName": "Start Zone"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Zones Dropoff"
+                    }
+                  },
+                  "Property": "borough"
+                }
+              },
+              "queryRef": "Zones Dropoff.borough",
+              "nativeQueryRef": "End Borough",
+              "displayName": "End Borough"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Zones Dropoff"
+                    }
+                  },
+                  "Property": "zone"
+                }
+              },
+              "queryRef": "Zones Dropoff.zone",
+              "nativeQueryRef": "End Zone",
+              "displayName": "End Zone"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Trips"
+                    }
+                  },
+                  "Property": "passengers"
+                }
+              },
+              "queryRef": "Sum(Trips.passengers)",
+              "nativeQueryRef": "Passengers",
+              "displayName": "Passengers"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Trips"
+                    }
+                  },
+                  "Property": "total_amount"
+                }
+              },
+              "queryRef": "Sum(Trips.total_amount)",
+              "nativeQueryRef": "Value of Fare",
+              "displayName": "Value of Fare"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "aa744ec7782a2286f0b2",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Zones Pickup"
+              }
+            },
+            "Property": "borough"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "2ad8e2ff6f184bbd121b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Zones Pickup"
+              }
+            },
+            "Property": "zone"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "z",
+              "Entity": "Zones Pickup",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "z"
+                              }
+                            },
+                            "Property": "zone"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "51b148e4648d429fc3e4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Trips"
+              }
+            },
+            "Property": "passengers"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "0a756f37e04773a60434",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Trips"
+              }
+            },
+            "Property": "total_amount"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "16eae2a6743857461379",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Zones Dropoff"
+              }
+            },
+            "Property": "borough"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "d4d8b5a4bd5a381df6d6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Zones Dropoff"
+              }
+            },
+            "Property": "zone"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

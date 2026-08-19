@@ -3,7 +3,7 @@ table Trips
 
 	column vendor_id
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		lineageTag: 0c3d7c6d-0082-40a9-8056-1f6858025522
 		summarizeBy: sum
 		sourceColumn: vendor_id
@@ -30,7 +30,7 @@ table Trips
 
 	column passengers
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		lineageTag: d19a8b07-5d63-4911-8f1f-a0f9b679bfc1
 		summarizeBy: sum
 		sourceColumn: passengers
@@ -85,10 +85,10 @@ table Trips
 		dataType: int64
 		formatString: 0
 		lineageTag: 393fa211-5739-4aba-b739-83795cdc4211
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: dropoff_location_id
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column payment_type
 		dataType: int64
@@ -169,13 +169,14 @@ table Trips
 
 	column total_amount
 		dataType: double
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
 		lineageTag: 2dc1a823-2ca1-40d5-94fc-ed50f0464a9c
 		summarizeBy: sum
 		sourceColumn: total_amount
 
 		annotation SummarizationSetBy = Automatic
 
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
 
 	column congestion_surcharge
 		dataType: double
@@ -206,6 +207,35 @@ table Trips
 		annotation SummarizationSetBy = Automatic
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column day_of_trip
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8eadc801-b628-45df-b9e8-f60ba164dbcf
+		summarizeBy: none
+		sourceColumn: day_of_trip
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column duration
+		dataType: double
+		lineageTag: 0cc7d15f-7713-455d-ad92-90f33dd732cc
+		summarizeBy: sum
+		sourceColumn: duration
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_amount_group
+		dataType: string
+		lineageTag: c1132c5a-dde2-40f8-b6d4-b43aa9573864
+		summarizeBy: none
+		sourceColumn: total_amount_group
+
+		annotation SummarizationSetBy = Automatic
 
 	partition Trips = m
 		mode: import

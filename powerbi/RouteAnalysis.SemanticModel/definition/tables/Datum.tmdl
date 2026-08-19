@@ -5,14 +5,14 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 6b23b679-370c-4366-b411-878831d5cfaa
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: id_datum
 
 		annotation SummarizationSetBy = Automatic
 
 	column datum_date
 		dataType: dateTime
-		formatString: Long Date
+		formatString: dd.mm.yy
 		lineageTag: b65df10d-5e4f-4eda-88af-c83fa2ba837e
 		summarizeBy: none
 		sourceColumn: datum_date
@@ -21,11 +21,13 @@ table Datum
 
 		annotation UnderlyingDateTimeDataType = Date
 
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
 	column wochentag_num
 		dataType: int64
 		formatString: 0
 		lineageTag: 7f8e8fa9-7873-4bbd-9c95-9edc63153c03
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: wochentag_num
 
 		annotation SummarizationSetBy = Automatic
@@ -50,7 +52,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: b37a1a60-fdbe-4944-969b-b1d3f33705d4
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: tag_im_monat_num
 
 		annotation SummarizationSetBy = Automatic
@@ -59,7 +61,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 36bfa2e1-ed4b-4050-a5a0-34a52851de74
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: tag_im_jahr_num
 
 		annotation SummarizationSetBy = Automatic
@@ -68,7 +70,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: adae0f10-0920-48a2-8632-0ac3c014ad7c
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: tage_seit_1900
 
 		annotation SummarizationSetBy = Automatic
@@ -77,7 +79,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 637f3070-5ba1-4f66-b612-a9f3d8d658e8
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: jahr_kw_num
 
 		annotation SummarizationSetBy = Automatic
@@ -86,7 +88,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 4156042e-841b-45db-a35c-1899a5a9c517
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: kw_num
 
 		annotation SummarizationSetBy = Automatic
@@ -103,7 +105,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: aeda88f8-6bec-4977-91b0-4632fb935a5d
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: jahr_monat_num
 
 		annotation SummarizationSetBy = Automatic
@@ -136,7 +138,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: c56d2f8c-d551-43e2-844a-fb31fdc4b95a
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: monat_num
 
 		annotation SummarizationSetBy = Automatic
@@ -145,7 +147,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 5ed471ea-f057-426a-a832-a0b03909c87c
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: jahr_quartal_num
 
 		annotation SummarizationSetBy = Automatic
@@ -162,7 +164,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 6463d70d-896c-44b7-bf9f-66e0604e46d1
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: quartal_num
 
 		annotation SummarizationSetBy = Automatic
@@ -171,7 +173,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 52566ae2-4704-432e-9acc-d3cbd4d0ecbd
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: jahr
 
 		annotation SummarizationSetBy = Automatic
@@ -189,7 +191,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 16a9f27c-09b1-41e0-ab88-8d3be26851c6
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: time_to_end_of_month
 
 		annotation SummarizationSetBy = Automatic
@@ -198,7 +200,7 @@ table Datum
 		dataType: int64
 		formatString: 0
 		lineageTag: 42ee4b24-2e69-4565-935a-7e176cb15ab3
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: time_to_end_of_year
 
 		annotation SummarizationSetBy = Automatic
@@ -214,7 +216,7 @@ table Datum
 				in
 				    datum_View
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 
 	annotation PBI_NavigationStepName = Navigation
 
