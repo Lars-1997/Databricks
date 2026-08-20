@@ -19,7 +19,9 @@ resources:
         - notebook:
             path: ../src/bronze/dwh_nyc_taxi_rate.ipynb
         - notebook:
-            path: ../src/bronze/dwh_nyc_taxi_zone.ipynb    
+            path: ../src/bronze/dwh_nyc_taxi_zone.ipynb
+        - notebook:
+            path: ../src/bronze/dwh_nyc_weather.ipynb    
 ########################################################################
 ###                           Silver                                 ###
 ########################################################################
@@ -33,6 +35,8 @@ resources:
             path: ../src/silver/payment_stm_rate.ipynb
         - notebook:
             path: ../src/silver/trips_trn_trips.ipynb
+        - notebook:
+            path: ../src/silver/weather_stm_weather.ipynb
 ########################################################################
 ###                            Gold                                  ###
 ########################################################################
@@ -42,6 +46,8 @@ resources:
             path: ../src/gold/trips.ipynb
         - notebook:
             path: ../src/gold/zones.ipynb
+        - notebook:
+            path: ../src/gold/weather.ipynb
 
       serverless: true
       event_log:
