@@ -237,6 +237,15 @@ table Trips
 
 		annotation SummarizationSetBy = Automatic
 
+	column pickup_datetime_hour
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 05aff5e0-cd34-4079-acc8-29cb2309543f
+		summarizeBy: none
+		sourceColumn: pickup_datetime_hour
+
+		annotation SummarizationSetBy = Automatic
+
 	partition Trips = m
 		mode: import
 		source =

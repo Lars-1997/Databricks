@@ -1,0 +1,82 @@
+table Weather
+	lineageTag: 2e31cde0-cde5-47b5-89ff-d371e6fafc24
+
+	column datetime
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 7a3dd2b6-e213-4588-9e6f-202b8db083cd
+		summarizeBy: none
+		sourceColumn: datetime
+
+		annotation SummarizationSetBy = Automatic
+
+	column temperature
+		dataType: double
+		lineageTag: 7e5795e6-33e0-4d8a-bdcc-0f83133ee808
+		summarizeBy: none
+		sourceColumn: temperature
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column temperature_groups
+		dataType: string
+		lineageTag: 64b3bd08-092a-4388-a2fe-03d4f80b7baa
+		summarizeBy: none
+		sourceColumn: temperature_groups
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_temperature
+		dataType: double
+		lineageTag: 32b10b74-60e9-4a68-9b02-5388be023c93
+		summarizeBy: none
+		sourceColumn: avg_temperature
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column precipitation
+		dataType: double
+		lineageTag: 5a1cf08f-2194-4bf7-b61e-3b637a0b044c
+		summarizeBy: none
+		sourceColumn: precipitation
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column precipitation_groups
+		dataType: string
+		lineageTag: b6258039-0b96-437d-86a5-0341ddc7eca7
+		summarizeBy: none
+		sourceColumn: precipitation_groups
+
+		annotation SummarizationSetBy = Automatic
+
+	column rainy
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 231798d4-8af3-473e-8c3f-f1b47c71edd3
+		summarizeBy: none
+		sourceColumn: rainy
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Weather = m
+		mode: import
+		source =
+				let
+				    Source = DatabricksMultiCloud.Catalogs("dbc-c330c5c5-5531.cloud.databricks.com", "/sql/1.0/warehouses/623eacf84c6d44c1", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
+				    analytics_Database = Source{[Name="analytics",Kind="Database"]}[Data],
+				    gold_Schema = analytics_Database{[Name="gold",Kind="Schema"]}[Data],
+				    weather_View = gold_Schema{[Name="weather",Kind="View"]}[Data]
+				in
+				    weather_View
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

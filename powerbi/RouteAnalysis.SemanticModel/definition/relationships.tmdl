@@ -10,3 +10,7 @@ relationship 47e6416b-b0de-3286-775e-01b037e19262
 	fromColumn: Trips.dropoff_location_id
 	toColumn: 'Zones Dropoff'.location_id
 
+relationship 9a76c963-9c72-e908-8fdf-1ac7948c403f
+	fromColumn: Trips.pickup_datetime_hour
+	toColumn: Weather.datetime
+

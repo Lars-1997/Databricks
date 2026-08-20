@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
-  "name": "f85013a0e1dbcf5dacee",
+  "name": "3b79f08c3c0228bff633",
   "position": {
-    "x": 1448.8343558282209,
+    "x": 970.79754601226989,
     "y": 144.29447852760737,
-    "z": 8,
+    "z": 3000,
     "height": 105.03067484662576,
     "width": 449.57055214723925,
-    "tabOrder": 8
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "slicer",
@@ -23,18 +23,33 @@
                       "Entity": "Trips"
                     }
                   },
-                  "Property": "duration"
+                  "Property": "distance"
                 }
               },
-              "queryRef": "Trips.duration",
-              "nativeQueryRef": "Duration in minutes",
+              "queryRef": "Trips.distance",
+              "nativeQueryRef": "Distance in miles",
               "active": true,
-              "displayName": "Duration in minutes"
+              "displayName": "Distance in miles"
             }
           ]
         }
       },
       "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Trips"
+                  }
+                },
+                "Property": "distance"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
         "isDefaultSort": true
       }
     },
@@ -192,28 +207,10 @@
       ]
     },
     "syncGroup": {
-      "groupName": "duration",
+      "groupName": "distance",
       "fieldChanges": true,
       "filterChanges": true
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "e1bc2184db02c30d0830",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Trips"
-              }
-            },
-            "Property": "duration"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

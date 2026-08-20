@@ -206,6 +206,11 @@
         }
       ]
     },
+    "syncGroup": {
+      "groupName": "distance",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
     "drillFilterOtherVisuals": true
   }
 }

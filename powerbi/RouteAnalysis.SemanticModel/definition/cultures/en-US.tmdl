@@ -5254,9 +5254,1016 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "trip.pickup_datetime_hour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Trips",
+			          "ConceptualProperty": "pickup_datetime_hour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pickup datetime hour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pickup_datetime_hour": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "pickup datetime period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pickup datetime era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pickup datetime epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pickup datetime age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "weather": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weather": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "climate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "weather.datetime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "datetime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datetime": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "weather.temperature": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "temperature"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "temperature": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "illness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "malaise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fever": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hotness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "warmth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "heat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "weather.temperature_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "temperature_groups"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "temperature group": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "temperature_groups": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "temperature category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "temperature organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "temperature bracket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "temperature class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "temperature crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "temperature team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Temperatur Groups": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "weather.avg_temperature": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "avg_temperature"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg temperature": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg_temperature": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average temperature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "avg infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg disease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg illness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg malaise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg fever": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg hotness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "avg warmth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "avg heat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "weather.precipitation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "precipitation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precipitation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rainfall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "snow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sleet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hail": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "drizzle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "weather.precipitation_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "precipitation_groups"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precipitation group": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precipitation_groups": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "precipitation category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "precipitation organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "precipitation bracket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "precipitation class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "precipitation crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "precipitation team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Precipitation Groups": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "weather.rainy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Weather",
+			          "ConceptualProperty": "rainy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rainy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "raining": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "drizzling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "showery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "drizzly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pouring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "wet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "damp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "inclement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Rain": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "trip_has_zones_pickup": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "zones_pickup": {
+			          "Target": {
+			            "Entity": "zones_pickup"
+			          },
+			          "Nouns": [
+			            {
+			              "location": {
+			                "State": "Generated"
+			              }
+			            },
+			            {
+			              "pickup location": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "zones_pickup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_zones_pickups"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zones_pickup"
+			            },
+			            "Object": {
+			              "Role": "trip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_pickups_have_trips"
+			        }
+			      ]
+			    },
+			    "weather_has_rainy": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.rainy": {
+			          "Target": {
+			            "Entity": "weather.rainy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.rainy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_rainy"
+			        }
+			      ]
+			    },
+			    "weather_has_precipitation_group": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.precipitation_group": {
+			          "Target": {
+			            "Entity": "weather.precipitation_group"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.precipitation_group"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_precipitation_groups"
+			        }
+			      ]
+			    },
+			    "weather_has_precipitation": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.precipitation": {
+			          "Target": {
+			            "Entity": "weather.precipitation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.precipitation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_precipitations"
+			        }
+			      ]
+			    },
+			    "weather_has_avg_temperature": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.avg_temperature": {
+			          "Target": {
+			            "Entity": "weather.avg_temperature"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.avg_temperature"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_avg_temperatures"
+			        }
+			      ]
+			    },
+			    "weather_has_temperature_group": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.temperature_group": {
+			          "Target": {
+			            "Entity": "weather.temperature_group"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.temperature_group"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_temperature_groups"
+			        }
+			      ]
+			    },
+			    "weather_has_temperature": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.temperature": {
+			          "Target": {
+			            "Entity": "weather.temperature"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.temperature"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_temperatures"
+			        }
+			      ]
+			    },
+			    "weather_has_datetime": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.datetime": {
+			          "Target": {
+			            "Entity": "weather.datetime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.datetime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_datetimes"
+			        }
+			      ]
+			    },
+			    "trip_has_pickup_datetime_hour": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "trip.pickup_datetime_hour": {
+			          "Target": {
+			            "Entity": "trip.pickup_datetime_hour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "trip.pickup_datetime_hour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_pickup_datetime_hours"
+			        }
+			      ]
+			    },
 			    "zones_dropoff_has_longitude": {
 			      "Binding": {
 			        "ConceptualEntity": "Zones Dropoff"
@@ -7460,61 +8467,53 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "trip_has_zones_pickup": {
+			    "weather_is_rainy": {
 			      "Binding": {
-			        "ConceptualEntity": "Trips"
+			        "ConceptualEntity": "Weather"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "trip": {
+			        "weather": {
 			          "Target": {
-			            "Entity": "trip"
+			            "Entity": "weather"
 			          }
 			        },
-			        "zones_pickup": {
+			        "weather.rainy": {
 			          "Target": {
-			            "Entity": "zones_pickup"
-			          },
-			          "Nouns": [
-			            {
-			              "location": {
-			                "State": "Generated"
-			              }
-			            },
-			            {
-			              "pickup location": {
-			                "State": "Generated"
-			              }
-			            }
-			          ]
+			            "Entity": "weather.rainy"
+			          }
 			        }
 			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "weather.rainy"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
 			      "Phrasings": [
 			        {
-			          "Attribute": {
+			          "Adjective": {
 			            "Subject": {
-			              "Role": "trip"
+			              "Role": "weather"
 			            },
-			            "Object": {
-			              "Role": "zones_pickup"
-			            }
+			            "Adjectives": [
+			              {
+			                "rainy": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "trips_have_zones_pickups"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "zones_pickup"
-			            },
-			            "Object": {
-			              "Role": "trip"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "zones_pickups_have_trips"
+			          "ID": "some_weathers_are_rainy_weathers"
 			        }
 			      ]
 			    },
@@ -7607,6 +8606,59 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "zones_dropoffs_have_trips"
+			        }
+			      ]
+			    },
+			    "trip_has_weather": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          },
+			          "Nouns": [
+			            {
+			              "pickup datetime hour": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "weather"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_weathers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "trip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_trips"
 			        }
 			      ]
 			    }

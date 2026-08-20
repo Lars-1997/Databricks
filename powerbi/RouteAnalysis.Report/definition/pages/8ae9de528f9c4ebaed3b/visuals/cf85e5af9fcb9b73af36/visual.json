@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
-  "name": "2c53a519cb07fca6f5d7",
+  "name": "cf85e5af9fcb9b73af36",
   "position": {
-    "x": 1448.8343558282209,
+    "x": 970.79754601226989,
     "y": 20.613496932515336,
-    "z": 5000,
+    "z": 1000,
     "height": 105,
     "width": 450,
-    "tabOrder": 5000
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "slicer",
@@ -20,21 +20,36 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Zones Pickup"
+                      "Entity": "Datum"
                     }
                   },
-                  "Property": "borough"
+                  "Property": "datum_date"
                 }
               },
-              "queryRef": "Zones.borough",
-              "nativeQueryRef": "Pickup Borough",
+              "queryRef": "Datum.datum_date",
+              "nativeQueryRef": "Date",
               "active": true,
-              "displayName": "Pickup Borough"
+              "displayName": "Date"
             }
           ]
         }
       },
       "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Datum"
+                  }
+                },
+                "Property": "datum_date"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
         "isDefaultSort": true
       }
     },
@@ -45,7 +60,7 @@
             "mode": {
               "expr": {
                 "Literal": {
-                  "Value": "'Dropdown'"
+                  "Value": "'RelativeDatePicker'"
                 }
               }
             }
@@ -132,36 +147,55 @@
                 "Version": 2,
                 "From": [
                   {
-                    "Name": "z",
-                    "Entity": "Zones Pickup",
+                    "Name": "d",
+                    "Entity": "Datum",
                     "Type": 0
                   }
                 ],
                 "Where": [
                   {
                     "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "z"
-                                }
-                              },
-                              "Property": "borough"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
+                      "And": {
+                        "Left": {
+                          "Comparison": {
+                            "ComparisonKind": 2,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "d"
+                                  }
+                                },
+                                "Property": "datum_date"
+                              }
+                            },
+                            "Right": {
                               "Literal": {
-                                "Value": "'Bronx'"
+                                "Value": "datetime'2025-08-01T00:00:00'"
                               }
                             }
-                          ]
-                        ]
+                          }
+                        },
+                        "Right": {
+                          "Comparison": {
+                            "ComparisonKind": 3,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "d"
+                                  }
+                                },
+                                "Property": "datum_date"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "datetime'2025-09-01T00:00:00'"
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -201,86 +235,10 @@
       ]
     },
     "syncGroup": {
-      "groupName": "borough",
+      "groupName": "datum_date",
       "fieldChanges": true,
       "filterChanges": true
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "ff270f1d8f32e94e775f",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Zones Pickup"
-              }
-            },
-            "Property": "borough"
-          }
-        },
-        "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "z",
-              "Entity": "Zones Pickup",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "z"
-                              }
-                            },
-                            "Property": "borough"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "null"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "objects": {
-          "general": [
-            {
-              "properties": {
-                "isInvertedSelectionMode": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "true"
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        }
-      }
-    ]
   }
 }

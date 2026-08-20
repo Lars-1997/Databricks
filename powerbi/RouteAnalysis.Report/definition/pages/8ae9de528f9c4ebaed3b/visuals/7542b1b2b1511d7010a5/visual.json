@@ -1,60 +1,105 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
-  "name": "2c53a519cb07fca6f5d7",
+  "name": "7542b1b2b1511d7010a5",
   "position": {
-    "x": 1448.8343558282209,
-    "y": 20.613496932515336,
-    "z": 5000,
-    "height": 105,
-    "width": 450,
-    "tabOrder": 5000
+    "x": 546,
+    "y": 21,
+    "z": 4003,
+    "height": 230,
+    "width": 404,
+    "tabOrder": 4003
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "pieChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Zones Pickup"
+                      "Entity": "Weather"
                     }
                   },
-                  "Property": "borough"
+                  "Property": "rainy"
                 }
               },
-              "queryRef": "Zones.borough",
-              "nativeQueryRef": "Pickup Borough",
+              "queryRef": "Weather.rainy",
+              "nativeQueryRef": "Rain",
               "active": true,
-              "displayName": "Pickup Borough"
+              "displayName": "Rain"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Trips"
+                        }
+                      },
+                      "Property": "total_amount"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Trips.total_amount)",
+              "nativeQueryRef": "Total Revenue",
+              "displayName": "Total Revenue"
             }
           ]
         }
       },
       "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Trips"
+                      }
+                    },
+                    "Property": "total_amount"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
         "isDefaultSort": true
       }
     },
     "objects": {
-      "data": [
+      "legend": [
         {
           "properties": {
-            "mode": {
+            "position": {
               "expr": {
                 "Literal": {
-                  "Value": "'Dropdown'"
+                  "Value": "'Right'"
                 }
               }
-            }
-          }
-        }
-      ],
-      "slider": [
-        {
-          "properties": {
+            },
+            "showTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
@@ -65,10 +110,10 @@
           }
         }
       ],
-      "pendingChangesIcon": [
+      "dataPoint": [
         {
           "properties": {
-            "show": {
+            "borderShow": {
               "expr": {
                 "Literal": {
                   "Value": "true"
@@ -78,147 +123,69 @@
           }
         }
       ],
-      "dateRangeText": [
+      "labels": [
         {
           "properties": {
-            "fontSize": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "relativeText": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "header": [
-        {
-          "properties": {
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                  "Value": "true"
                 }
               }
             },
-            "textSize": {
+            "position": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "'preferOutside'"
                 }
               }
-            }
-          }
-        }
-      ],
-      "general": [
-        {
-          "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "z",
-                    "Entity": "Zones Pickup",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "z"
-                                }
-                              },
-                              "Property": "borough"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Bronx'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        }
-      ]
-    },
-    "visualContainerObjects": {
-      "background": [
-        {
-          "properties": {
-            "show": {
+            },
+            "labelStyle": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "'Both'"
                 }
               }
-            }
-          }
-        }
-      ],
-      "border": [
-        {
-          "properties": {
-            "show": {
+            },
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "12D"
+                }
+              }
+            },
+            "background": {
+              "expr": {
+                "Literal": {
+                  "Value": "'auto'"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }
           }
         }
       ]
-    },
-    "syncGroup": {
-      "groupName": "borough",
-      "fieldChanges": true,
-      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   },
   "filterConfig": {
     "filters": [
       {
-        "name": "ff270f1d8f32e94e775f",
+        "name": "00dffc34d22a0ba21c3d",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Zones Pickup"
+                "Entity": "Weather"
               }
             },
-            "Property": "borough"
+            "Property": "rainy"
           }
         },
         "type": "Categorical",
@@ -226,8 +193,8 @@
           "Version": 2,
           "From": [
             {
-              "Name": "z",
-              "Entity": "Zones Pickup",
+              "Name": "w",
+              "Entity": "Weather",
               "Type": 0
             }
           ],
@@ -242,10 +209,10 @@
                           "Column": {
                             "Expression": {
                               "SourceRef": {
-                                "Source": "z"
+                                "Source": "w"
                               }
                             },
-                            "Property": "borough"
+                            "Property": "rainy"
                           }
                         }
                       ],
@@ -280,6 +247,25 @@
             }
           ]
         }
+      },
+      {
+        "name": "f463124755086aa51a71",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Trips"
+                  }
+                },
+                "Property": "total_amount"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }
