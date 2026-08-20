@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
-  "name": "f85013a0e1dbcf5dacee",
+  "name": "bb77d13199ba33bc0c45",
   "position": {
     "x": 1448.8343558282209,
     "y": 144.29447852760737,
-    "z": 8,
+    "z": 4000,
     "height": 105.03067484662576,
     "width": 449.57055214723925,
-    "tabOrder": 8
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "slicer",
@@ -197,23 +197,5 @@
       "filterChanges": true
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "e1bc2184db02c30d0830",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Trips"
-              }
-            },
-            "Property": "duration"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

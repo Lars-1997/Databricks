@@ -171,7 +171,7 @@
                             },
                             "Right": {
                               "Literal": {
-                                "Value": "datetime'2025-06-01T00:00:00'"
+                                "Value": "datetime'2025-08-01T00:00:00'"
                               }
                             }
                           }
@@ -191,7 +191,7 @@
                             },
                             "Right": {
                               "Literal": {
-                                "Value": "datetime'2025-07-01T00:00:00'"
+                                "Value": "datetime'2025-09-01T00:00:00'"
                               }
                             }
                           }
@@ -234,24 +234,11 @@
         }
       ]
     },
+    "syncGroup": {
+      "groupName": "datum_date",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "fbaeb9b7792029485148",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Datum"
-              }
-            },
-            "Property": "datum_date"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

@@ -191,6 +191,11 @@
         }
       ]
     },
+    "syncGroup": {
+      "groupName": "duration",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
     "drillFilterOtherVisuals": true
   }
 }

@@ -9,7 +9,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBI_QueryOrder = ["Datum","Trips","Zones Pickup","Zones Dropoff"]
+annotation PBI_QueryOrder = ["Datum","Trips","Zones Pickup","Zones Dropoff","Weather"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -17,6 +17,7 @@ ref table Datum
 ref table Trips
 ref table 'Zones Pickup'
 ref table 'Zones Dropoff'
+ref table Weather
 
 ref cultureInfo en-US
 

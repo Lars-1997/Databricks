@@ -53,7 +53,8 @@
               },
               "queryRef": "Sum(Trips.vendor_id)",
               "nativeQueryRef": "Trips",
-              "displayName": "Trips"
+              "displayName": "Trips",
+              "format": "#,0"
             }
           ]
         }

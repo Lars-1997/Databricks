@@ -212,11 +212,12 @@ table Datum
 				    Source = DatabricksMultiCloud.Catalogs("dbc-c330c5c5-5531.cloud.databricks.com", "/sql/1.0/warehouses/623eacf84c6d44c1", [Catalog=null, Database=null, QueryTags=null, EnableAutomaticProxyDiscovery=null, Implementation="2.0", Protocol=null]),
 				    analytics_Database = Source{[Name="analytics",Kind="Database"]}[Data],
 				    gold_Schema = analytics_Database{[Name="gold",Kind="Schema"]}[Data],
-				    datum_View = gold_Schema{[Name="datum",Kind="View"]}[Data]
+				    datum_View = gold_Schema{[Name="datum",Kind="View"]}[Data],
+				    #"Filtered Rows" = Table.SelectRows(datum_View, each ([jahr] = 2025))
 				in
-				    datum_View
+				    #"Filtered Rows"
 
-	annotation PBI_ResultType = Exception
+	annotation PBI_ResultType = Table
 
 	annotation PBI_NavigationStepName = Navigation
 
