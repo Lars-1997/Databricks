@@ -46,23 +46,30 @@ route-analysis/
 │
 ├── src/
 │   ├── bronze/
-│   │   ├── taxi_ingest.py
-│   │   ├── weather_ingest.py
-│   │   ├── holiday_ingest.py
-│   │   └── event_ingest.py
+│   │   ├── dwh_datum.ipynb
+│   │   ├── dwh_nyc_taxi.ipynb
+│   │   ├── dwh_nyc_taxi_payment.ipynb
+│   │   ├── dwh_nyc_taxi_rate.ipynb
+│   │   ├── dwh_nyc_taxi_zone.ipynb
+│   │   └── dwh_nyc_weather.ipynb
+│   │
+│   ├── gold/
+│   │   ├── datum.ipynb
+│   │   ├── trips.ipynb
+│   │   ├── weather.ipynb
+│   │   └── zones.ipynb
 │   │
 │   ├── silver/
-│   │   ├── taxi_transform.py
-│   │   ├── weather_transform.py
-│   │   ├── holiday_transform.py
-│   │   └── event_transform.py
+│   │   ├── calendar_stm_datum.ipynb
+│   │   ├── geographics_stm_zone.ipynb
+│   │   ├── payment_stm_payment.ipynb
+│   │   ├── payment_stm_rate.ipynb
+│   │   ├── trips_trn_trips.ipynb
+│   │   └── weather_stm_weather.ipynb
 │   │
-│   └── gold/
-│       ├── daily_kpi.py
-│       ├── location_analysis.py
-│       ├── weather_impact.py
-│       ├── event_impact.py
-│       └── route_analysis.py
+│   └── testing/
+│       ├── Testing Sample Data.ipynb
+│       └── Testing with Spark SQL.ipynb
 │
 ├── powerbi/
 │   └── RouteAnalysis/
@@ -70,21 +77,20 @@ route-analysis/
 │       │
 │       ├── RouteAnalysis.Report/
 │       │   ├── definition.pbir
-│       │   ├── report.json
+│       │   ├── .platform
 │       │   ├── StaticResources/
-│       │   └── pages/
+│       │   └── definition/
 │       │
 │       └── RouteAnalysis.SemanticModel/
+│           ├── .platform
 │           ├── definition.pbism
-│           ├── model.bim
-│           ├── diagrams/
-│           └── expressions/
+│           ├── diagramLayout.json
+│           ├── .pbi/
+│           └── definition/
 │
 ├── docs/
-│   ├── architecture.png
-│   ├── medallion_architecture.png
-│   ├── pipeline_flow.png
-│   └── dashboard_mockup.png
+│   ├── NYC Taxi.jpg
+│   ├── zones.geojson
 │
 ├── .gitignore
 └── README.md
@@ -94,23 +100,23 @@ route-analysis/
 # Architecture
 
 ```text
-                   +-------------------+
-                   |      GitHub       |
-                   +---------+---------+
-                             |
-                             v
-                   +-------------------+
-                   | Databricks Bundle |
-                   +---------+---------+
-                             |
+                  +-------------------+
+                  |      GitHub       |
+                  +---------+---------+
+                            |
+                            v
+                  +-------------------+
+                  | Databricks Bundle |
+                  +---------+---------+
+                            |
            +----------------+----------------+
            |                                 |
            v                                 v
 +----------------------+      +----------------------+
 | NYC Taxi Data        |      | External APIs        |
-| TLC Trip Records     |      | Weather / Holidays   |
-+----------+-----------+      | Events               |
-           |                  +----------+-----------+
+| TLC Trip Records     |      | Weather              |
++----------+-----------+      +----------+-----------+
+           |                             |
            |                             |
            +-------------+---------------+
                          |
