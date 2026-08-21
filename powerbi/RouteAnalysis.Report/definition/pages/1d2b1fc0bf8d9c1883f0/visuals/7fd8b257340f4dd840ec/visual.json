@@ -1,0 +1,747 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "7fd8b257340f4dd840ec",
+  "position": {
+    "x": 349.44785276073617,
+    "y": 19.631901840490798,
+    "z": 1,
+    "height": 1040.4907975460121,
+    "width": 1550.920245398773,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Welcome to the Route Analysis Dashboard",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "20pt",
+                      "textDecoration": "underline"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Turning Transportation Data into Actionable Insights",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "This report provides a comprehensive analysis of New York City's taxi transportation patterns by combining operational trip data with external contextual information such as weather conditions.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Using a modern cloud-based analytics platform built on ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "Databricks Lakehouse Architecture",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": ", data is collected, transformed, and enriched through automated ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "Lakeflow Pipelines",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": " before being made available for interactive analysis in Power BI.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "What Happens in This Report?",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The dashboard enables users to explore transportation demand, route performance, revenue generation, and external factors influencing taxi activity across New York City.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Key analytical capabilities include:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Monitoring overall trip volume and revenue trends",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Identifying the most popular pickup and dropoff locations",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Understanding travel behavior across different days",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Analyzing the impact of weather conditions on transportation demand",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The report transforms raw trip records into business-ready insights that support data-driven decision-making.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Data Sources",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "NYC Taxi & Limousine Commission (TLC) Trip Data",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The primary data source consists of NYC taxi trip records containing:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Pickup and dropoff timestamps",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Passenger counts",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Trip distance",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Fare and revenue information",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Pickup and dropoff locations",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "External Enrichment Data",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "To provide additional business context, taxi data is enriched with:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Weather ",
+                    "textStyle": {
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "information",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " NYC Zone Geo Locations"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "By combining operational and contextual datasets, the report reveals not only ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "what happened",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontStyle": "italic",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": ", but also ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "why transportation demand changes over time",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontStyle": "italic",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": ".",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Data Processing Architecture",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The data is processed through a ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "Delta Lake Medallion Architecture",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": " within Databricks:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Bronze Layer",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Raw data ingestion from taxi datasets and external APIs.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Silver Layer",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Data cleansing, standardization, validation, and enrichment.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Gold Layer",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Business-focused analytical tables optimized for reporting.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Business Value",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "This dashboard helps stakeholders answer critical business questions:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "✅ Which NYC areas generate the highest transportation demand?",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "✅ How do weather conditions influence customer behavior?",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "✅ When are the busiest days, and travel periods?",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "By combining operational and external datasets, the report provides a data-driven foundation for:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Demand forecasting",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Resource and capacity planning",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Revenue optimization",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Location performance analysis",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Strategic transportation insights",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Technology Stack",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Databricks",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": " • ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "Lakeflow Pipelines",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": " • ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "Delta Lake",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": " • ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "GitHub CI/CD",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": " • ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  },
+                  {
+                    "value": "Power BI",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "This solution demonstrates a complete modern analytics workflow from data ingestion and engineering to business intelligence and executive reporting.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "14px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

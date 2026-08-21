@@ -3672,8 +3672,19 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.714
 			          }
+			        },
+			        {
+			          "Id": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
-			      ]
+			      ],
+			      "NameType": "Identifier"
 			    },
 			    "zones_pickup.borough": {
 			      "Definition": {
@@ -5942,97 +5953,6 @@ cultureInfo en-US
 			    }
 			  },
 			  "Relationships": {
-			    "trip_has_zones_pickup": {
-			      "Binding": {
-			        "ConceptualEntity": "Trips"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "trip": {
-			          "Target": {
-			            "Entity": "trip"
-			          }
-			        },
-			        "zones_pickup": {
-			          "Target": {
-			            "Entity": "zones_pickup"
-			          },
-			          "Nouns": [
-			            {
-			              "location": {
-			                "State": "Generated"
-			              }
-			            },
-			            {
-			              "pickup location": {
-			                "State": "Generated"
-			              }
-			            }
-			          ]
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "trip"
-			            },
-			            "Object": {
-			              "Role": "zones_pickup"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trips_have_zones_pickups"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "zones_pickup"
-			            },
-			            "Object": {
-			              "Role": "trip"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "zones_pickups_have_trips"
-			        }
-			      ]
-			    },
-			    "weather_has_rainy": {
-			      "Binding": {
-			        "ConceptualEntity": "Weather"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "weather": {
-			          "Target": {
-			            "Entity": "weather"
-			          }
-			        },
-			        "weather.rainy": {
-			          "Target": {
-			            "Entity": "weather.rainy"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "weather"
-			            },
-			            "Object": {
-			              "Role": "weather.rainy"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "weathers_have_rainy"
-			        }
-			      ]
-			    },
 			    "weather_has_precipitation_group": {
 			      "Binding": {
 			        "ConceptualEntity": "Weather"
@@ -6985,6 +6905,19 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "zones_pickups_have_location_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "zones_pickup"
+			            },
+			            "Name": {
+			              "Role": "zones_pickup.location_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "location_ids_are_names_IDs_of_zones_pickups"
 			        }
 			      ]
 			    },
@@ -8467,6 +8400,51 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
+			    "trip_in_zones_pickup": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "zones_pickup": {
+			          "Target": {
+			            "Entity": "zones_pickup"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "zones_pickup"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "zones_pickup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_are_in_zones_pickups"
+			        }
+			      ]
+			    },
 			    "weather_is_rainy": {
 			      "Binding": {
 			        "ConceptualEntity": "Weather"
@@ -8514,6 +8492,85 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "some_weathers_are_rainy_weathers"
+			        }
+			      ]
+			    },
+			    "weather_has_rainy": {
+			      "Binding": {
+			        "ConceptualEntity": "Weather"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "weather": {
+			          "Target": {
+			            "Entity": "weather"
+			          }
+			        },
+			        "weather.rainy": {
+			          "Target": {
+			            "Entity": "weather.rainy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "weather"
+			            },
+			            "Object": {
+			              "Role": "weather.rainy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weathers_have_rainy"
+			        }
+			      ]
+			    },
+			    "trip_has_zones_pickup": {
+			      "Binding": {
+			        "ConceptualEntity": "Trips"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trip": {
+			          "Target": {
+			            "Entity": "trip"
+			          }
+			        },
+			        "zones_pickup": {
+			          "Target": {
+			            "Entity": "zones_pickup"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trip"
+			            },
+			            "Object": {
+			              "Role": "zones_pickup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trips_have_zones_pickups"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zones_pickup"
+			            },
+			            "Object": {
+			              "Role": "trip"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zones_pickups_have_trips"
 			        }
 			      ]
 			    },

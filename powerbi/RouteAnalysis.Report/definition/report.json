@@ -65,6 +65,11 @@
           "name": "zones08822378788895957.geojson",
           "path": "zones08822378788895957.geojson",
           "type": "ShapeMap"
+        },
+        {
+          "name": "zones6068174877652249.geojson",
+          "path": "zones6068174877652249.geojson",
+          "type": "ShapeMap"
         }
       ]
     }
